@@ -6,7 +6,7 @@
 java -jar instrumenting-extend.jar args[]
 ```
 
-args参数列表：
+args list：
 
 args[0] = TAG, fill in as you like
 
