@@ -10,4 +10,13 @@ The static analysis and dynamic analysis component are integrated as BPFinder-St
 ```java
 java -jar BPFinder-Static.jar <apk path> <android jar path> <aapt path>  <txt saved path>
 ```
+# To use BPFinder-Dynamic.jar, follow this command:
+```java
+java -jar instrumenting-extend.jar args[]
+```
+args[0] = TAG, args[1] = APK Path，args[2] = ADB Path，(you may ignore this), args[3] = APKSigner Path，<br>
+
+args[4] = Keystore Path，args[5] = Keystore Pwd，args[6] = Android Jar Path，args[7] = AAPT Path,<br>
+
+args[8] = Keystore Alias，args[9] = Output Directory
 
