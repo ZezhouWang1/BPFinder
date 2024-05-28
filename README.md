@@ -7,6 +7,7 @@ Guideline:
 All the sh script for implementing HPC are included in the sh scrpit folder, and all the source code is available src folder.<br>
 The static analysis and dynamic analysis component are integrated as BPFinder-Static.jar and BPFinder-Dynamic.jar respectively.<br>
 # To use BPFinder-Static.jar, run this command:
-java -jar BPFinder-Static.jar <apk path> <android jar path> <aapt path>  <txt saved path> <br>
+```java
+java -jar BPFinder-Static.jar <apk path> <android jar path> <aapt path>  <txt saved path> 
 
 
