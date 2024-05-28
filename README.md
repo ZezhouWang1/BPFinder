@@ -12,7 +12,7 @@ java -jar BPFinder-Static.jar <apk path> <android jar path> <aapt path>  <txt sa
 ```
 # To use BPFinder-Dynamic.jar, follow this command:
 ```java
-java -jar instrumenting-extend.jar args[]
+java -jar BPFinder-Dynamic.jar args[]
 ```
 args[0] = TAG, args[1] = APK Path，args[2] = ADB Path，(you may ignore this), args[3] = APKSigner Path，<br>
 
